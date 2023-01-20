@@ -43,3 +43,6 @@ return (
 //     return useContext(AppContext)
 // 
 // }
+export const useProductContext = () => {
+    return useContext(AppContext);
+  };
